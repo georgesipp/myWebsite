@@ -11,23 +11,10 @@ const config = {
 			fallback: '404.html'
 		}),
 		paths: {
-			base: dev ? '' : process.env.BASE_PATH
+			base: process.argv.includes('dev') ? '' : process.env.BASE_PATH
 		}
 	}
 };
 
-export default {
-	kit: {
-		adapter: adapter({
-			// default options are shown. On some platforms
-			// these options are set automatically — see below
-			pages: 'build',
-			assets: 'build',
-			fallback: undefined,
-			precompress: false,
-			strict: true
-		})
-	}
-};
-
+export default config;
 
