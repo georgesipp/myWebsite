@@ -1,8 +1,8 @@
 <script>
-	import image1 from '$lib/components/playingemissions/Lindner.png';
-	import image2 from '$lib/components/playingemissions/Reichelt.png';
-	import image3 from '$lib/components/playingemissions/Limburg.png';
-	import image4 from '$lib/components/playingemissions/dasHaus.png';
+	//import image1 from '$lib/components/playingemissions/Lindner.png';
+	//import image2 from '$lib/components/playingemissions/Reichelt.png';
+	//import image3 from '$lib/components/playingemissions/Limburg.png';
+	//import image4 from '$lib/components/playingemissions/dasHaus.png';
 
 	// import trailer from '$lib/components/playingemissions/playingemissions_trailer.mp4';
 </script>
@@ -79,10 +79,10 @@
 
 		<div class="flex flex-auto">
 			<div class="grid xl:grid-cols-2 xl:grid-rows-2  gap-4 m-4 place-items-center">
-				<img class=" rounded-lg" alt="Lindner" src={image1} />
+				<!--<img class=" rounded-lg" alt="Lindner" src={image1} />
 				<img class="  rounded-lg" alt="Reichelt" src={image2} />
 				<img class="  rounded-lg" alt="Limburg" src={image3} />
-				<img class="  rounded-lg" alt="Haus" src={image4} />
+				<img class="  rounded-lg" alt="Haus" src={image4} />-->
 			</div>
 		</div>
 

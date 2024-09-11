@@ -1,6 +1,6 @@
 <script>
-	import image1 from '$lib/components/cubemaze/cube_maze_1.jpg';
-	import image2 from '$lib/components/cubemaze/cube_maze_2.jpg';
+	//import image1 from '$lib/components/cubemaze/cube_maze_1.jpg';
+	//import image2 from '$lib/components/cubemaze/cube_maze_2.jpg';
 
 	
 </script>
@@ -26,6 +26,6 @@
 		</div>
 	</div>
 
-	<img class="object-contain max-auto rounded-lg" alt="Cube Maze 1" src={image1} />
-	<img class="object-contain max-auto rounded-lg" alt="Cube Maze 2" src={image2} />
+	<!-- <img class="object-contain max-auto rounded-lg" alt="Cube Maze 1" src={image1} />
+	 <img class="object-contain max-auto rounded-lg" alt="Cube Maze 2" src={image2} />-->
 </div>

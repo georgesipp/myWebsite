@@ -1,14 +1,15 @@
 <script>
-	import image1 from '$lib/components/modemaker/modemaker.png';
+	//import image1 from '$lib/components/modemaker/modemaker.png';
 
 </script>
 
 <div class="grid h-full lg:grid-cols-2 ~xs:~gap-2/8 rounded-lg ~xs:~p-2/12 z-[-10] c">
+	<!--
 	<img
 		class="object-contain w-full max-auto rounded-lg xl:col-span-2"
 		alt="Mode Maker"
 		src={image1}
-	/>
+	/>-->
 
 	
 	<div class="w-full rounded-lg col-span-1 self-center">
