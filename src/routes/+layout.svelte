@@ -2,7 +2,7 @@
 
 
 <script>
-  import { base } from '$app/paths'
+  import { base } from '$app'
   import "tailwindcss/tailwind.css";
   import '../app.postcss'
 
