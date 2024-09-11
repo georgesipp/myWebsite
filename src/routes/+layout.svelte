@@ -29,7 +29,7 @@
           <li><a href={base +"/projekte/magicshell"}>Magic Shell</a></li>
           <li><a href={base +"/projekte/cubemaze"}>Cube Maze</a></li>
           <li><a href={base +"/projekte/modemaker"}>Mode Maker</a></li>
-          <li><a href={base +"null"}>Something Else</a></li>
+
 
 
         </ul>
