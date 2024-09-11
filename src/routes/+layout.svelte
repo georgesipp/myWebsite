@@ -35,7 +35,7 @@
         </ul>
       </div>
 
-    <a class="btn lg:btn-lg btn-ghost lg:text-4xl" href={base +"/impressum"}>Imprint</a>
+    <a class="btn lg:btn-lg btn-ghost lg:text-4xl" href={"/impressum"}>Imprint</a>
   </div>
   
 
