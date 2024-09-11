@@ -9,7 +9,7 @@ const config = {
 	kit: {
 		adapter: adapter(),
 		paths: {
-			base: process.env.NODE_ENV === 'production' ? '/myWebsite' : '',
+			base: dev ? '' : process.env.BASE_PATH
 		}
 
 	}
