@@ -1,6 +1,6 @@
 import adapter from '@sveltejs/adapter-static';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
-//import { base } from '$service-worker';
+
 
 const dev = process.argv.includes('dev');
 
@@ -8,9 +8,10 @@ const dev = process.argv.includes('dev');
 const config = {
 	kit: {
 		adapter: adapter(),
+
 		paths: {
-			base: '/myWebsite',
-            assets: '/myWebsite'
+			base: dev ? '' : process.env.BASE_PATH,
+			relative: false,
 		}
 
 	}
