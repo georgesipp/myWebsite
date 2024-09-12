@@ -1,8 +1,3 @@
-<script>
-	import image1 from 'https://websitebilder.b-cdn.net/website%20bilder/magicshell_image1.jpg';
-	import image2 from 'https://websitebilder.b-cdn.net/website%20bilder/magicshell_image2.jpg';
-	import image3 from 'https://websitebilder.b-cdn.net/website%20bilder/magicshell_image3.jpg';
-</script>
 
 <!--
 <div class="grid h-full lg:grid-cols-2 gap-8 m-8 rounded-lg z-[-10] place-content-stretch">
@@ -40,8 +35,8 @@
 	class="grid h-full lg:grid-cols-2 ~xs:~gap-2/8 rounded-lg ~xs:~p-2/12 z-[-10] place-content-stretch"
 >
 	<div class="inline-flex flex-col gap-y-8">
-		<img class="object-contain max-auto rounded-lg shrink" alt="magicshell1" src={image2} />
-		<img class="object-contain max-auto rounded-lg self-end" alt="magicshell3" src={image1} />
+		<img class="object-contain max-auto rounded-lg shrink" alt="magicshell1" src="https://websitebilder.b-cdn.net/website%20bilder/magicshell_image2.jpg" />
+		<img class="object-contain max-auto rounded-lg self-end" alt="magicshell3" src="https://websitebilder.b-cdn.net/website%20bilder/magicshell_image1.jpg" />
 	</div>
 	<div class="inline-flex flex-col gap-y-8">
 		<div class=" bg-accent rounded-lg px-8 drop-shadow-2xl grow p-4">
@@ -63,6 +58,6 @@
 			</div>
 		</div>
 
-		<img class="object-contain max-auto rounded-lg self-end" alt="magicshell2" src={image3} />
+		<img class="object-contain max-auto rounded-lg self-end" alt="magicshell2" src="https://websitebilder.b-cdn.net/website%20bilder/magicshell_image3.jpg" />
 	</div>
 </div>
