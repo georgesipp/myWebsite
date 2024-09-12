@@ -9,7 +9,7 @@
 </script>
 
 
-
+<div  class="overflow-x-hidden" >
 
 <h1 class="ml-8 mt-8 text-xl"> <a href={base +"/projekte"}> Jonas Olbrich </a></h1>
 
@@ -44,3 +44,4 @@
 <footer class="footer p-10 bg-secondary text-neutral-content mb-4">
 
 </footer>
+</div>

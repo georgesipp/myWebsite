@@ -1,4 +1,7 @@
-<div class="bg-accent h-full m-12 rounded-lg ~xs:~p-2/12 text-justify" >
+<div class="bg-accent h-full ~xs:~m-2/12 rounded-lg ~xs:~p-2/12 text-justify" >
+
+
+
 	<h1 class="content-center ~xs:~px-2/4 mt-8 text-2xl font-bold">Datenschutzerklärung</h1>
 	<div class="~xs:~px-2/4 mt-8 ~xs:~text-xs/xl ml-5 text-pretty mb-8">
 		<h1 class="mb-2 font-bold">Jonas Olbrich</h1>
