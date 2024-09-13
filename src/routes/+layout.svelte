@@ -20,9 +20,9 @@
 
     <div class="dropdown dropdown-hover relative">
 
-        <div tabindex="0" role="button" class="btn lg:btn-lg btn-ghost lg:text-4xl "><a href={base +"/projekte"}>Projekte</a></div>
+        <div tabindex="0" role="button" class="btn lg:btn-lg btn-ghost lg:text-4xl ">Projekte <!--<a href={base +"/projekte"}></a>--></div>
 
-        <ul class="dropdown-content z-[1] menu p-2 shadow bg-neutral rounded-box w-80 text-2xl">
+        <ul class="dropdown-content z-[1] menu p-2 shadow bg-neutral rounded-box w-40 lg:w-80 lg:text-2xl overflow-visible">
           <li><a href="{base}/projekte/playingemissions" >Playing Emissions</a></li>
           <li><a href={base +"/projekte/cloudfactory"}>Cloudfactory</a></li>
           <li><a href={base +"/projekte/jeffersonsarcadia"}>Jeffersons Arcadia</a></li>

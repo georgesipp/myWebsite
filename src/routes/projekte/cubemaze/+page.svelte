@@ -1,11 +1,12 @@
-<script>
-	//import image1 from '$lib/components/cubemaze/cube_maze_1.jpg';
-	//import image2 from '$lib/components/cubemaze/cube_maze_2.jpg';
-
-	
-</script>
 
 <div class="grid h-full lg:grid-cols-2 ~xs:~gap-2/8 rounded-lg ~xs:~p-2/12 z-[-10]">
+
+	<div style="position:relative;padding-top:56.25%; height:0;widht:100%;" class="rounded-lg col-span-1 justify-end self-end">
+		<iframe title="trailer" class="rounded-lg" src="https://iframe.mediadelivery.net/embed/305120/0e6a0f4d-9007-4b6f-87dd-20a4a7fd86ce?autoplay=true&loop=true&muted=true&preload=true&responsive=true" 
+		loading="lazy" style="border:0;position:absolute;top:0;height:100%;width:100%;" allow="accelerometer;gyroscope;autoplay;encrypted-media;picture-in-picture;" 
+		allowfullscreen="false"></iframe>
+	</div>
+
 	<!-- <video class="w-full rounded-lg col-span-1 justify-end self-end" autoplay muted controls>
 		<source src={video1} type="video/mp4" />
 		Your browser does not support the video tag.
@@ -26,6 +27,6 @@
 		</div>
 	</div>
 
-	<!-- <img class="object-contain max-auto rounded-lg" alt="Cube Maze 1" src={image1} />
-	 <img class="object-contain max-auto rounded-lg" alt="Cube Maze 2" src={image2} />-->
+	<img class="object-contain max-auto rounded-lg" alt="Cube Maze 1" src="https://websitebilder.b-cdn.net/website%20bilder/cube_maze_1.jpg" />
+	 <img class="object-contain max-auto rounded-lg" alt="Cube Maze 2" src="https://websitebilder.b-cdn.net/website%20bilder/cube_maze_2.jpg" />
 </div>

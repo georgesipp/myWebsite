@@ -1,19 +1,20 @@
-<script>
-	//import image1 from '$lib/components/modemaker/modemaker.png';
 
-</script>
 
 <div class="grid h-full lg:grid-cols-2 ~xs:~gap-2/8 rounded-lg ~xs:~p-2/12 z-[-10] c">
-	<!--
+	
 	<img
 		class="object-contain w-full max-auto rounded-lg xl:col-span-2"
 		alt="Mode Maker"
-		src={image1}
-	/>-->
+		src="https://websitebilder.b-cdn.net/website%20bilder/modemaker.png"
+	/>
 
 	
 	<div class="w-full rounded-lg col-span-1 self-center">
-
+<div style="position:relative;padding-top:56.25%; height:0;widht:100%;" class="rounded-lg col-span-1 justify-end self-end">
+		<iframe title="trailer" class="rounded-lg" src="https://iframe.mediadelivery.net/embed/305120/76fd671e-c045-4939-88ab-1cdc4b772ffd?autoplay=true&loop=true&muted=true&preload=true&responsive=true"
+		loading="lazy" style="border:0;position:absolute;top:0;height:100%;width:100%;" allow="accelerometer;gyroscope;autoplay;encrypted-media;picture-in-picture;" 
+		allowfullscreen="false"></iframe>
+	</div>
 </div>
 
 	<div class=" bg-accent rounded-lg ~xs:~px-2/4 drop-shadow-2xl p-4">
@@ -34,4 +35,6 @@
 			</p>
 		</div>
 	</div>
+	
+
 </div>

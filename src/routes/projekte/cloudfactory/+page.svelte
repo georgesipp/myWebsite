@@ -9,7 +9,7 @@
 </script> 
 
 
-<div class="grid h-full lg:grid-cols-2 ~xs:~gap-2/8 rounded-lg ~xs:~p-2/12">
+<div class="grid h-full lg:grid-cols-2 ~xs:~gap-2/8 rounded-lg ~xs:~p-2/12 ">
 
 	<div style="position:relative;padding-top:56.25%; height:0;widht:100%;" class="col-span-2 sm:row-span-1 lg:col-span-1">
 		<iframe title="trailer" class="rounded-lg" src="https://iframe.mediadelivery.net/embed/305120/c1b24796-698f-46ca-a7ce-458bb4d18d90?autoplay=true&loop=true&muted=true&preload=true&responsive=true"
@@ -44,22 +44,22 @@
 
 
 	<div style="position:relative;padding-top:56.25%; height:0;widht:100%;" >
-		<iframe title="video1" class="rounded-lg" src="https://iframe.mediadelivery.net/embed/305538/beaae89a-962b-4358-9a34-946400d7b947?autoplay=true&loop=true&muted=true&preload=true&responsive=true"
-		loading="lazy" style="border:0;position:absolute;top:0;height:100%;width:100%;" 
+		<iframe title="video1" class="rounded-lg bg-accent inset-0" src="https://iframe.mediadelivery.net/embed/305538/beaae89a-962b-4358-9a34-946400d7b947?autoplay=true&loop=true&muted=true&preload=true&responsive=true"
+		loading="lazy" style="border:0;position:absolute;top:0;height:100%;width:100%; " 
 		allowfullscreen="false"></iframe>
 	</div>
 	<div style="position:relative;padding-top:56.25%; height:0;widht:100%;" >
-		<iframe title="video2"  class="rounded-lg" src="https://iframe.mediadelivery.net/embed/305538/0f5c5e8e-6092-49a1-9d17-3db52a836c8c?autoplay=true&loop=true&muted=true&preload=true&responsive=true"
+		<iframe title="video2"  class="rounded-lg bg-accent" src="https://iframe.mediadelivery.net/embed/305538/0f5c5e8e-6092-49a1-9d17-3db52a836c8c?autoplay=true&loop=true&muted=true&preload=true&responsive=true"
 		loading="lazy" style="border:0;position:absolute;top:0;height:100%;width:100%;" allow="accelerometer;gyroscope;autoplay;encrypted-media;picture-in-picture;" 
 		allowfullscreen="false"></iframe>
 	</div>
 	<div style="position:relative;padding-top:56.25%; height:0;widht:100%;" >
-		<iframe title="video3" class="rounded-lg" src="https://iframe.mediadelivery.net/embed/305538/6344722e-2bac-41b6-a909-8eca6b36bdf6?autoplay=true&loop=true&muted=true&preload=true&responsive=true"
+		<iframe title="video3" class="rounded-lg bg-accent" src="https://iframe.mediadelivery.net/embed/305538/6344722e-2bac-41b6-a909-8eca6b36bdf6?autoplay=true&loop=true&muted=true&preload=true&responsive=true"
 		loading="lazy" style="border:0;position:absolute;top:0;height:100%;width:100%;" allow="accelerometer;gyroscope;autoplay;encrypted-media;picture-in-picture;" 
 		allowfullscreen="false"></iframe>
 	</div>
 	<div style="position:relative;padding-top:56.25%; height:0;widht:100%;" >
-		<iframe title="video4" class="rounded-lg" src="https://iframe.mediadelivery.net/embed/305538/d302ab49-69c4-4795-a766-29d43ed0d695?autoplay=true&loop=true&muted=true&preload=true&responsive=true"
+		<iframe title="video4" class="rounded-lg bg-accent" src="https://iframe.mediadelivery.net/embed/305538/d302ab49-69c4-4795-a766-29d43ed0d695?autoplay=true&loop=true&muted=true&preload=true&responsive=true"
 		loading="lazy" style="border:0;position:absolute;top:0;height:100%;width:100%;" allow="accelerometer;gyroscope;autoplay;encrypted-media;picture-in-picture;" 
 		allowfullscreen="false"></iframe>
 	</div>

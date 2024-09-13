@@ -25,9 +25,9 @@ export default {
       lg: '64rem',
       xl: '80rem',
       xxl: '96rem'
-
-
     },
+    
+
   },
   plugins: [require('@tailwindcss/typography'),daisyui, fluid],
 
