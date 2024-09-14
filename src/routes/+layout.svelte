@@ -23,12 +23,12 @@
         <div tabindex="0" role="button" class="btn lg:btn-lg btn-ghost lg:text-4xl ">Projekte <!--<a href={base +"/projekte"}></a>--></div>
 
         <ul class="dropdown-content z-[1] menu p-2 shadow bg-neutral rounded-box w-40 lg:w-80 lg:text-2xl overflow-visible">
-          <li><a href="/projekte/playingemissions" >Playing Emissions</a></li>
-          <li><a href="/projekte/cloudfactory">Cloudfactory</a></li>
-          <li><a href="/projekte/jeffersonsarcadia">Jeffersons Arcadia</a></li>
-          <li><a href="/projekte/magicshell">Magic Shell</a></li>
-          <li><a href="/projekte/cubemaze">Cube Maze</a></li>
-          <li><a href="/projekte/modemaker">Mode Maker</a></li>
+          <li><a href="{base}/projekte/playingemissions" >Playing Emissions</a></li>
+          <li><a href={base +"/projekte/cloudfactory"}>Cloudfactory</a></li>
+          <li><a href={base +"/projekte/jeffersonsarcadia"}>Jeffersons Arcadia</a></li>
+          <li><a href={base +"/projekte/magicshell"}>Magic Shell</a></li>
+          <li><a href={base +"/projekte/cubemaze"}>Cube Maze</a></li>
+          <li><a href={base +"/projekte/modemaker"}>Mode Maker</a></li>
 
 
 
