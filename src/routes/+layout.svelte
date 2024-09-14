@@ -19,7 +19,7 @@
 
     <a class="btn btn-ghost lg:btn-lg lg:text-4xl" href={base +"/aboutme"}>About me</a>
 
-    <div class="dropdown dropdown-hover relative">
+    <div class="dropdown dropdown-hover relative overflow-visible">
 
         <div tabindex="0" role="button" class="btn lg:btn-lg btn-ghost lg:text-4xl ">Projekte <!--<a href={base +"/projekte"}></a>--></div>
 
@@ -42,7 +42,7 @@
 
 <slot />
 
-<footer class="footer p-10 bg-secondary text-neutral-content mb-4">
+<footer class="footer p-10 bg-secondary text-neutral-content mb-4 self-end">
 
 </footer>
 </div>

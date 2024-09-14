@@ -7,7 +7,7 @@
 	import image5 from '$lib/components/modemaker/modemaker.png';
 </script> -->
 
-<div class="grid h-full lg:grid-cols-2 m-2 ~xs:~gap-2/8 ~xs:~p-2/12">
+<div class="grid h-screen lg:grid-cols-2 m-2 ~xs:~gap-2/8 ~xs:~p-2/12">
 	<!-- <div class="bg-primary rounded-lg p-2">
 		<a href="/projekte/playingemissions">
 			<img
