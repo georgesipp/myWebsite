@@ -17,7 +17,7 @@
 			<p class="mb-4 font-bold">Premiere 19.11.2023, FFT Düsseldorf </p>
 			<p class="mb-4 ">
 				Das Spiel „Cubey’s Maze“ entstand innerhalb einer zweiwöchigen Residenz im
-				FFT Düsseldorf im Rahmen des Projektes Digitales Foyer. Cubey muss durch ein Labyrinth navigiert werden, dafür müssen zunächst jedoch die richtigen Schlüssel gefunden werden.
+				FFT Düsseldorf im Rahmen des Projektes Digitales Foyer. Cubey muss durch ein Labyrinth navigiert werden, dafür müssen jedoch zunächst die richtigen Schlüssel gefunden werden.
 				Als Controller und Konsole dienen die FFT Cubes. Ein FFT Cube ist ein 60×60×60cm großer Holzwürfel. Die Oberseite besteht aus einem Display, im Inneren befinden sich Sensoren, die Position und Drehung des Würfels registrieren. 
 				Durch das Schieben und Drehen des Würfels kommt Cubey an sein Ziel.
 			</p>
