@@ -22,7 +22,7 @@
 				Durch das Schieben und Drehen des Würfels kommt Cubey an sein Ziel.
 			</p>
 			<p class="mb-4 ">
-			eine Game-Intervention von Leonie Kopineck, Jonas Olbrich, Jeffrey van der Geest, Veronika Risniovska
+			eine Game-Intervention von <a href="https://www.leoniehannakopineck.de/" class="text-primary lg:text-black lg:hover:text-primary">Leonie Kopineck</a>, Jonas Olbrich, Jeffrey van der Geest, <a href="https://veronikarisnovska.hotglue.me/" class="text-primary lg:text-black lg:hover:text-primary">Veronika Risnovska</a>
 			</p>
 		</div>
 	</div>

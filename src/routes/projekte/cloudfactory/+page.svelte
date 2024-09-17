@@ -11,7 +11,7 @@
 
 <div class="grid h-full lg:grid-cols-2 ~xs:~gap-2/8 rounded-lg ~xs:~p-2/12 ">
 
-	<div style="position:relative;padding-top:56.25%; height:0;widht:100%;" class="col-span-2 sm:row-span-1 lg:col-span-1">
+	<div style="position:relative;padding-top:56.25%; height:0;widht:100%;" class="col-span-2  lg:col-span-1 sm:row-span-1">
 		<iframe title="trailer" class="rounded-lg" src="https://iframe.mediadelivery.net/embed/305120/c1b24796-698f-46ca-a7ce-458bb4d18d90?autoplay=true&loop=true&muted=true&preload=true&responsive=true"
 		loading="lazy" style="border:0;position:absolute;top:0;height:100%;width:100%;" allow="accelerometer;gyroscope;autoplay;encrypted-media;picture-in-picture;" 
 		allowfullscreen="false"></iframe>
@@ -36,8 +36,8 @@
 				der jeder Gast seinen Atem und seinen Eindruck ausdrücken konnte.
 			</p>
 			<p class="mb-4">
-				eine Game-Intervention von Mari Hakopyan, Friederike Hänsel, Leonie Hanna Kopineck, Jonas
-				Olbrich, Tobias Nevriva, Veronika Risnovska, Jeffrey van der Geest, Clemens Winkler
+				eine Game-Intervention von Mari Hakopyan, Friederike Hänsel, <a href="https://www.leoniehannakopineck.de/" class="text-primary lg:text-black lg:hover:text-primary">Leonie Hanna Kopineck</a>, Jonas
+				Olbrich, Tobias Nevriva, <a href="https://veronikarisnovska.hotglue.me/" class="text-primary lg:text-black lg:hover:text-primary">Veronika Risnovska</a>, Jeffrey van der Geest, Clemens Winkler
 			</p>
 		</div>
 	</div>
