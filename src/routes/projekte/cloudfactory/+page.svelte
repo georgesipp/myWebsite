@@ -37,8 +37,8 @@
 			</p>
 			<!--
 			<p class="mb-4">
-				eine Game-Intervention von Mari Hakopyan, Friederike Hänsel, <a href="https://www.leoniehannakopineck.de/" class="text-primary lg:text-black lg:hover:text-primary">Leonie Hanna Kopineck</a>, Jonas
-				Olbrich, Tobias Nevriva, <a href="https://veronikarisnovska.hotglue.me/" class="text-primary lg:text-black lg:hover:text-primary">Veronika Risnovska</a>, Jeffrey van der Geest, Clemens Winkler
+				eine Game-Intervention von Mari Hakopyan, Friederike Hänsel, <a href="https://www.leoniehannakopineck.de" class="text-primary lg:text-black lg:hover:text-primary">Leonie Hanna Kopineck</a>, Jonas
+				Olbrich, Tobias Nevriva, <a href="https://veronikarisnovska.hotglue.me" class="text-primary lg:text-black lg:hover:text-primary">Veronika Risnovska</a>, Jeffrey van der Geest, Clemens Winkler
 			</p>-->
 		</div>
 	</div>
