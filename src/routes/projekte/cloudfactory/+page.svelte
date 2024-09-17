@@ -35,11 +35,16 @@
 				und welchem Nutzen? Das Endergebnis war eine partizipatorische Umgebung auf der Bühne, in
 				der jeder Gast seinen Atem und seinen Eindruck ausdrücken konnte.
 			</p>
-			<!--
 			<p class="mb-4">
+<<<<<<< HEAD
 				eine Game-Intervention von Mari Hakopyan, Friederike Hänsel, <a href="https://www.leoniehannakopineck.de" class="text-primary lg:text-black lg:hover:text-primary">Leonie Hanna Kopineck</a>, Jonas
 				Olbrich, Tobias Nevriva, <a href="https://veronikarisnovska.hotglue.me" class="text-primary lg:text-black lg:hover:text-primary">Veronika Risnovska</a>, Jeffrey van der Geest, Clemens Winkler
 			</p>-->
+=======
+				eine Game-Intervention von Mari Hakopyan, Friederike Hänsel, <a href="https://www.leoniehannakopineck.de/" class="text-primary lg:text-black lg:hover:text-primary">Leonie Hanna Kopineck</a>, Jonas
+				Olbrich, Tobias Nevriva, <a href="https://veronikarisnovska.hotglue.me/" class="text-primary lg:text-black lg:hover:text-primary">Veronika Risnovska</a>, Jeffrey van der Geest, Clemens Winkler
+			</p>
+>>>>>>> parent of a36421f (reverse links)
 		</div>
 	</div>
 

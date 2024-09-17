@@ -21,10 +21,14 @@
 				Als Controller und Konsole dienen die FFT Cubes. Ein FFT Cube ist ein 60×60×60cm großer Holzwürfel. Die Oberseite besteht aus einem Display, im Inneren befinden sich Sensoren, die Position und Drehung des Würfels registrieren. 
 				Durch das Schieben und Drehen des Würfels kommt Cubey an sein Ziel.
 			</p>
-			<!--
 			<p class="mb-4 ">
+<<<<<<< HEAD
 			eine Game-Intervention von <a href="https://www.leoniehannakopineck.de" class="text-primary lg:text-black lg:hover:text-primary">Leonie Kopineck</a>, Jonas Olbrich, Jeffrey van der Geest, <a href="https://veronikarisnovska.hotglue.me/" class="text-primary lg:text-black lg:hover:text-primary">Veronika Risnovska</a>
 			</p>-->
+=======
+			eine Game-Intervention von <a href="https://www.leoniehannakopineck.de/" class="text-primary lg:text-black lg:hover:text-primary">Leonie Kopineck</a>, Jonas Olbrich, Jeffrey van der Geest, <a href="https://veronikarisnovska.hotglue.me/" class="text-primary lg:text-black lg:hover:text-primary">Veronika Risnovska</a>
+			</p>
+>>>>>>> parent of a36421f (reverse links)
 		</div>
 	</div>
 
