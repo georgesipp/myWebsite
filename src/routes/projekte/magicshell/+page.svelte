@@ -54,11 +54,7 @@
 			</h1>
 			<div class="~xs:~px-2/4 ~xs:~text-xs/2xl text-pretty text-justify">
 				<p class=" font-medium">von Sivan Ben Yishai</p>
-<<<<<<< HEAD
-				<p class="mb-4 font-bold">Sommerprojekt Regie von <!--<a href="https://www.lisameyerregie.com" class="text-primary lg:text-black lg:hover:text-primary">Lisa Meyer</a>--> & Taale Frese</p>
-=======
 				<p class="mb-4 font-bold">Sommerprojekt Regie von <a href="https://www.lisameyerregie.com/" class="text-primary lg:text-black lg:hover:text-primary">Lisa Meyer</a> & Taale Frese</p>
->>>>>>> parent of a36421f (reverse links)
 				<p class="mb-4">Ihr liebt die 90er-Jahre und sucht nach einem passenden Outfit oder seid einfach ein bisschen nostalgisch?</p>
 				<p class="mb-4">
 					Ein Eiscafé. Oder ist es ein Tempel? Fünf beste Freundinnen löffeln den bittersüßen Banana-Split des Patriarchats
