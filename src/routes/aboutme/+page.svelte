@@ -23,7 +23,7 @@
 					in Düsseldorf.
 				</p>
                 <p class="mb-12">
-                    Contact: contact@jonasolbrich.de
+                    Contact: kontakt@jonasolbrich.de
                 </p>
 			</div>
 		</div>
