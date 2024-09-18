@@ -18,11 +18,12 @@
 			Jeffersons Arcadia</h1>
 		<div class="px-4 mt-8 mb-8 text-xl text-pretty mb-8">
 			<p>
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium nulla corporis unde,
-				temporibus consequatur obcaecati recusandae consectetur, ab exercitationem veritatis
-				repudiandae laudantium totam nostrum provident dolores aliquam doloremque quos. Saepe.
+				Der Pionier Ernest Jefferson hat uns eine Videobotschaft übermittelt. Er und sein mechanischer Gefährte Erwin sind bei ihrer Reise durch den Kosmos auf etwas gestoßen: Ein für Menschen bewohnbarer Planet. Er selbst wird die Bevölkerung dieses Planeten wohl nicht mehr erleben. Die Entfernung zu diesem Planeten beträgt etwa ein Lichtjahr. Auf der Reise dorthin sollten wir uns Gedanken zur Infrastruktur machen. Jefferson hat uns die nötigen Daten übermittelt. Jetzt liegt es an uns, Energiequellen, Wohnraum, Agrikultur und Logistik sinnvoll und nachhaltig zu gestalten.
 			</p>
-			
+			<p class="mt-8 mb-8">
+			Die AR Simulation visualisiert die einzelnen Gebäude und ihre Abhängigkeiten. Richtig angeordnet ergeben sich Synergien zwischen den Einrichtungen. Das Umherschieben der Marker macht es möglich, mit der Organisation zu experimentieren und nach einer perfekten Lösung zu suchen. 
+
+			</p>
 			
 		</div>
 	</div>
