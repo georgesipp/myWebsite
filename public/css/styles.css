@@ -32,6 +32,8 @@ svg {
 
 /* 2. Base ----------------------------------------------------------------- */
 :root {
+  font-family: "Alice", serif;
+
   --text: #d6d5d5;
   --background: #000000;
   --muted: #666666;
@@ -53,10 +55,10 @@ svg {
   --gap-fluid:   clamp(0.5rem, 0.105rem + 1.974vw, 2rem);
 
   --project-border: 5px;
+  
 }
 
 body {
-  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   font-size: 1rem;
   line-height: 1.6;
   color: var(--text);
@@ -400,6 +402,12 @@ footer {
 @media (hover: none), (max-width: 600px) {
   .has-dropdown > a::after {
     display: none;
+  }
+  
+  .menu .dropdown,
+  .has-dropdown:hover .dropdown,
+  .has-dropdown:focus-within .dropdown {
+    display: none !important;
   }
 
   .project-image {
