@@ -1,7 +1,7 @@
-const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 
-module.exports = function(eleventyConfig) {
+import eleventyNavigationPlugin from "@11ty/eleventy-navigation";
 
+export default function(eleventyConfig) {
     eleventyConfig.addPlugin(eleventyNavigationPlugin);
     eleventyConfig.addPassthroughCopy({ "src/css": "css" });
     eleventyConfig.addPassthroughCopy({ "src/js": "js" });

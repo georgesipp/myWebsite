@@ -1,8 +1,8 @@
 ---
 layout: base.njk
 title: jonasolbrich
+permalink: /index.html
+eleventyExcludeFromCollections: true
 ---
 
-<section class="intro-card">
-    <h1 style="color:var(--secondary-light)" > Hello World! </h1>
-</section>
+<script>location.replace("{{ '/projects/' | url }}");</script>
