@@ -1,0 +1,27 @@
+
+{%- set navPages = collections.all | eleventyNavigation %}
+
+<header class="site-header">
+  <a class="logo" href="{{ '/projects/' | url }}">Jonas</a>
+
+  
+  <nav >
+    <ul class="menu">
+      {%- for entry in navPages %}
+        <li{% if entry.children.length %} class="has-dropdown"{% endif %}>
+          <a href="{{ entry.url | url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a>
+
+          {%- if entry.children.length %}
+            <ul class="dropdown">
+              {%- for child in entry.children %}
+                <li><a href="{{ child.url | url }}">{{ child.title }}</a></li>
+              {%- endfor %}
+            </ul>
+          {%- endif %}
+        </li>
+      {%- endfor %}
+    </ul>
+  </nav>
+
+  <a class="text-link" style="margin-right:50px" href="{{ '/aboutme/' | url }}"{% if page.url == '/aboutme/' %} aria-current="page"{% endif %}>About me</a>
+</header>

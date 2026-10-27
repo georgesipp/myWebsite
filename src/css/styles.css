@@ -1,0 +1,434 @@
+/* ==========================================================================
+   Base stylesheet
+   Sections: 1. Reset  2. Base  3. Layout  4. Header & dropdown  5. Content
+             6. Media queries (tablet, mobile, touch, print)
+   ========================================================================== */
+
+/* 1. Reset ---------------------------------------------------------------- */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body,
+h1, h2, h3, h4,
+p, ul, ol, figure {
+  margin: 0;
+  margin-top: 0.5rem;
+}
+
+img,
+video,
+svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* 2. Base ----------------------------------------------------------------- */
+:root {
+  --text: #d6d5d5;
+  --background: #000000;
+  --muted: #666666;
+  --accent: #0057b8;
+  --border: #080808;
+  --primary: #45141c;
+  --primary-light: #83413e;
+  --secondary: #14453D;
+  --secondary-light: #e0f1f0;
+
+  --space-s: 0.5rem;
+  --space-m: 1rem;
+  --space-l: 2rem;
+
+  --max-width: 60rem;
+  --header-height: 4rem;
+
+    /* what the ~xs:~gap-2/8 etc. utilities generated (see below) */
+  --gap-fluid:   clamp(0.5rem, 0.105rem + 1.974vw, 2rem);
+
+  --project-border: 5px;
+}
+
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--text);
+  background: var(--background);
+}
+
+a {
+  color: var(--text);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration-thickness: 2px;
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+h1, h2, h3, h4 {
+  line-height: 1.25;
+}
+
+h1 { font-size: 2.25rem; }
+h2 { font-size: 1.75rem; }
+h3 { font-size: 1.35rem; }
+
+/* 3. Layout --------------------------------------------------------------- */
+
+.page-grid {
+  grid-template-columns: minmax(0, 1fr);
+  display: grid;
+  min-height: 100%;
+  gap: var(--gap-fluid);
+  padding: var(--pad-fluid);
+  border-radius: var(--radius);
+
+  @media (min-width: 1024px) {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.project-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  display: grid;
+  min-height: 100%;
+  gap: var(--gap-fluid);
+  padding: var(--pad-fluid);
+  border-radius: var(--radius);
+
+  @media (min-width: 1024px) {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  @media (max-width: 500px) {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+}
+
+.page-layout-a {
+  grid-template-areas:"c""b""a";
+  display: grid;
+  min-height: 100%;
+  gap: var(--gap-fluid);
+  padding: var(--pad-fluid);
+  border-radius: var(--radius);
+  @media (min-width: 1024px) {
+    grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
+    grid-template-areas:
+      "a b"
+      "c b";
+  }
+}
+
+.page-layout-b {
+  grid-template-areas:"d""b""c""a";
+  display: grid;
+  min-height: 100%;
+  gap: var(--gap-fluid);
+  padding: var(--pad-fluid);
+  border-radius: var(--radius);
+  @media (min-width: 1024px) {
+    grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
+    grid-template-areas:
+      "a b"
+      "d c";
+  }
+  @media (min-width: 1400px) {
+    grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
+    grid-template-areas:
+      "a b"
+      "a c"
+      "d d";
+  }
+}
+
+.a { grid-area: a; }
+.b { grid-area: b; padding-right: 20px; }
+.c { grid-area: c; }
+.d { grid-area: d; }
+
+.intro-card {
+  background: var(--color-accent);
+  border-radius: var(--radius);
+  padding: 1rem;
+  filter: drop-shadow(0 25px 25px rgb(0 0 0 / 0.15));
+  padding-right: 20px;
+
+}
+
+main {
+  margin: 0 auto;
+  padding: var(--space-l) var(--space-m);
+  width: 100%;
+  min-height: 100vh;
+}
+
+main > * + * {
+  margin-top: var(--space-m);
+  
+}
+
+/* 4. Header & dropdown ---------------------------------------------------- */
+.site-header {
+  position: sticky;
+  top: 10px;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-m);
+  min-height: var(--header-height);
+  padding: var(--space-s) var(--space-m);
+  background: var(--primary);
+  z-index: 1000;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: var(--text);
+  text-decoration: none;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-m) 1.5rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.menu li {
+  position: relative;
+}
+
+.menu a {
+  display: block;
+  padding: var(--space-s) 0;
+  color: var(--primary-light);
+  text-decoration: none;
+}
+
+.menu a:hover,
+.menu a[aria-current="page"] {
+  color: var(--text);
+}
+
+.menu a[aria-current="page"] {
+  font-weight: 600;
+}
+
+/* Small arrow on items that have a dropdown */
+.has-dropdown > a::after {
+  content: "";
+  display: inline-block;
+  margin-left: 0.4em;
+  border: solid currentColor;
+  border-width: 0 2px 2px 0;
+  padding: 2px;
+  transform: translateY(-2px) rotate(45deg);
+}
+
+/* The dropdown itself: hidden by default, opened by hover or keyboard focus */
+.dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 10;
+  min-width: 12rem;
+  margin: 0;
+  padding: var(--space-s) 0;
+  list-style: none;
+  background: var(--primary);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.dropdown a {
+  padding: var(--space-s) var(--space-m);
+  white-space: nowrap;
+}
+
+.dropdown a:hover {
+  background: var(--primary);
+}
+
+.has-dropdown:hover > .dropdown,
+.has-dropdown:focus-within > .dropdown {
+  display: block;
+}
+
+/* 5. Content -------------------------------------------------------------- */
+.image-pair {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--gap-fluid);
+  border-radius: var(--radius);
+}
+
+.image-pair img,
+.single-image {
+  object-fit: contain;
+  border-radius: var(--radius);
+}
+
+.video { aspect-ratio: 16 / 9; }
+.video iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  border-radius: var(--radius);
+  background: var(--color-accent);
+}
+
+footer {
+  min-height: var(--header-height);
+  align-items: right;
+  margin: var(--space-l) auto 0;
+  padding: var(--space-m);
+  border-top: 1px solid var(--border);
+  font-size: 0.875rem;
+  color: var(--muted);
+  background: var(--secondary); 
+  direction: rtl;
+}
+
+.project-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--text);
+  text-decoration: none;
+}
+.project-subtitle {
+  font-size: 1.25rem;
+  color: var(--text);
+  text-decoration: none;
+}
+.project-description {
+  font-size: 0.875rem;
+  color: var(--text);
+  text-decoration: none;
+  text-wrap: pretty; 
+  text-align: justify;
+}
+
+.text-link {
+  color: var(--text);
+  text-decoration: none;
+  color: var(--primary-light);
+}
+.text-link:hover {
+  color: var(--text);
+}
+.text-link[aria-current="page"] {
+  font-weight: 700;
+  color: var(--text);
+}
+
+.project-image {
+  border-bottom-left-radius: var(--project-border);
+  border-bottom-right-radius: var(--project-border);
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+  filter: grayscale(100%);
+  transition: filter 0.3s ease-in-out;
+}
+.project-card {
+  background: var(--background);
+  border-radius: var(--project-border);
+}
+.project-card h2 {
+  color: var(--secondary-light);
+  white-space: nowrap;
+  font-size: clamp(1rem, 2cqw, 2.25rem);
+  justify-self: end;
+  margin-bottom: 0.5rem;
+}
+.project-card:hover > .project-image {
+    filter: grayscale(0%);
+}
+
+
+
+/* 6. Media queries -------------------------------------------------------- */
+
+/* Tablet and below */
+@media (max-width: 900px) {
+  h1 { font-size: 2rem; }
+  h2 { font-size: 1.5rem; }
+
+  main {
+    padding: var(--space-m);
+  }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  body {
+    font-size: 0.9375rem;
+  }
+
+  h1 { font-size: 1.75rem; }
+  h2 { font-size: 1.35rem; }
+
+
+  .menu {
+    flex-direction: column;
+    gap: 0;
+    width: 100%;
+  }
+}
+
+
+/* Devices without hover (phones, tablets): show submenus inline */
+@media (hover: none), (max-width: 600px) {
+  .has-dropdown > a::after {
+    display: none;
+  }
+
+  .project-image {
+    filter: grayscale(0%);
+  }
+}
+
+/* Large screens */
+@media (min-width: 1400px) {
+  :root {
+    --max-width: 70rem;
+  }
+}
+
+/* Respect reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+
+/* Print */
+@media print {
+  .site-header .menu {
+    display: none;
+  }
+
+  a {
+    color: inherit;
+  }
+}
