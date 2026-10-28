@@ -289,6 +289,21 @@ main > * + * {
   border-radius: var(--radius);
 }
 
+.image-credit {
+  font-size: 0.75rem;
+  color: var(--muted);
+  text-align: right;
+  margin-top: var(--space-s);
+  position: relative;
+  right: 10px;
+  bottom: 30px;
+  z-index: 10;
+
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
 .video { aspect-ratio: 16 / 9; }
 .video iframe {
   width: 100%;
