@@ -101,6 +101,9 @@ h3 { font-size: 1.35rem; }
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
+.page-grid img{
+  margin:10px;
+}
 
 .project-grid {
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -166,7 +169,13 @@ h3 { font-size: 1.35rem; }
   padding: 1rem;
   filter: drop-shadow(0 25px 25px rgb(0 0 0 / 0.15));
   padding-right: 20px;
+}
 
+.twospan {
+  grid-column: span 1;
+  @media (min-width: 1024px) {
+    grid-column: span 2;
+  }
 }
 
 main {

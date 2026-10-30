@@ -36,6 +36,13 @@ eleventyNavigation:
     </div>
   </a>
 
+<a href="{{ '/projects/prophet/' | url }}">
+    <div class="project-card">
+      <h2 style="margin-left:5px">Pissed Prophet</h2>
+      <img class="project-image" alt="Pissed Prophet" src="https://websitebilder.b-cdn.net/website%20bilder/pissed_prophet_thumbnail.jpg">
+    </div>
+  </a>
+
 <a href="{{ '/projects/emissions/' | url }}">
     <div class="project-card">
       <h2 style="margin-left:5px">Playing Emissions</h2>

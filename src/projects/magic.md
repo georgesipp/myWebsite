@@ -12,11 +12,11 @@ eleventyNavigation:
 
 <div class="page-layout-b">
 
-  <div class="a" style="padding:15px">
+  <div class="a" >
   <img alt="magicshell1" src="https://websitebilder.b-cdn.net/website%20bilder/magicshell_image2.jpg"></img>
   </div>
 
-  <div class="b" style="padding:15px">
+  <div class="b">
   <div class="intro-card">
     <div class="project-title">
       LIKE LOVERS DO 
@@ -46,11 +46,11 @@ eleventyNavigation:
   </div>
   </div>
 
-  <div class="c" style="padding:15px">
+  <div class="c">
   <img alt="magicshell2" src="https://websitebilder.b-cdn.net/website%20bilder/magicshell_image3.jpg"></img>
   </div>
 
-  <div class="d" style="padding:15px">
+  <div class="d">
   <img alt="magicshell3" src="https://websitebilder.b-cdn.net/website%20bilder/magicshell_image1.jpg"></img>
   </div>
 

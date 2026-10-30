@@ -9,7 +9,8 @@ eleventyNavigation:
 
 <div class="page-grid">
 
-  <section class="intro-card" style="grid-column:span 2">
+  <div class="twospan">
+  <section class="intro-card">
     <h1 class="project-title">Motion Capture Marionette</h1>
     <div class="project-description" >
       <p class="project-subtitle">Kooperationsprojekt der Abteilung Zeitgenössische Puppenspielkunst mit dem <a href="https://georg-kolbe-museum.de/programm/veranstaltungen/praesentation-kooperationsprojekt-mit-der-hochschule-fuer-schauspielkunst-ernst-busch/">Georg-Kolbe-Museum</a></p>
@@ -26,18 +27,19 @@ eleventyNavigation:
   </p>
   </div>
   </section>
+  </div>
+
 
   <div class="image-pair">
-    <img alt="Marionette 1" src="https://websitebilder.b-cdn.net/website%20bilder/inti_sensoren-grafik.jpg" >
-    <img alt="Marionette 2" src="https://websitebilder.b-cdn.net/website%20bilder/inti_marionette.jpg">
+    <img alt="Marionette 1" src="https://websitebilder.b-cdn.net/website%20bilder/inti_sensoren-grafik.jpg" ></img>
+    <img alt="Marionette 2" src="https://websitebilder.b-cdn.net/website%20bilder/inti_marionette.jpg"></img>
   </div>
 
   <div class="video">
     <iframe title="video2" src="https://iframe.mediadelivery.net/embed/305538/1784d2bc-48ab-4fcc-92f4-c63a2a205ec6?autoplay=true&loop=true&muted=true&preload=true&responsive=true" loading="lazy"
       allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture"></iframe>
   </div>
-
-  <img class="single-image" alt="Marionette 3" src="https://websitebilder.b-cdn.net/website%20bilder/inti_unity.png">
-  <img class="single-image" alt="Marionette 4" src="https://websitebilder.b-cdn.net/website%20bilder/inti_setup_grafik.jpg">
+  <img alt="Marionette 3" src="https://websitebilder.b-cdn.net/website%20bilder/inti_unity.png"></img>
+  <img alt="Marionette 4" src="https://websitebilder.b-cdn.net/website%20bilder/inti_setup_grafik.jpg"></img>
 
 </div>
